@@ -40,8 +40,12 @@
     cursor: pointer;
 }
 
+.navLink:hover {
+    background: rgb(186, 222, 222);
+  }
+
 .logoNav{
-    color: rgba(99, 99, 127, 0.544);
+    color: rgb(144, 188, 180);
     justify-self: flex-start;
     cursor: pointer;
     font-size: 40px;

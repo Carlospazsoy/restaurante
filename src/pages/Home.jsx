@@ -1,8 +1,14 @@
 import React from 'react'
+import {servicioData} from '../.././src/components/dataPage'
+import Conocenos from '../components/conocenos/Conocenos'
+import Presentacion from '../components/presentacionHome/Presentacion'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <Presentacion />
+    <Conocenos {...servicioData} />
+    </>
   )
 }
 
